@@ -92,3 +92,8 @@ Not found page
 -import function usePathname from package next/navigation
 -create variables const pathname, const productId and const reviewId
 -open route: http://localhost:3000/products/1/reviews/10000
+
+
+File colocation
+
+-create folder dashboard and components line-chart.tsx and page.tsx
