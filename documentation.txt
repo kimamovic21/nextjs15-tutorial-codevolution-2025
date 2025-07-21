@@ -103,3 +103,14 @@ Private folders
 
 -create folder _lib and component page.tsx
 -open route: http://localhost:3000/_lib
+
+
+Route groups
+
+-open link: https://nextjs.org/docs/app/api-reference/file-conventions/route-groups
+-create folder (auth)
+-in folder (auth) create folders register, login and forgot-password
+-create components page.tsx
+-open route: http://localhost:3000/register
+-open route: http://localhost:3000/login
+-open route: http://localhost:3000/forgot-password
