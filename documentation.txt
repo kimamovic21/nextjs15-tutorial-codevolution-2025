@@ -38,3 +38,15 @@ Nested routes
 -in folder blog create folders first and second
 -in folders first and second create components page.tsx
 -open route: http://localhost:3000/blog/first and http://localhost:3000/blog/second
+
+
+Dynamic routes
+
+-open link: https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes
+-create folder products and component page.tsx
+-open route: http://localhost:3000/products
+-create folder [productId] and component page.tsx
+-open route: http://localhost:3000/products/[productId]
+-in component [productId]/page.tsx add to function ProductDetails() parameter params with type Promise
+-make function ProductDetailsPage() async
+-destructure variable const { productId } from await params
