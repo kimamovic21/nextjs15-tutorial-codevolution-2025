@@ -18,3 +18,13 @@ Project Structure
 Before We Start
 
 -open link: https://nextjs.org/docs/app/getting-started/server-and-client-components
+
+
+Routing
+
+-open link: https://nextjs.org/docs/pages/building-your-application/routing
+-create new Next.js app routing-demo
+-create folders about and profile
+-in folders about and profile create components page.tsx
+-open rotes: http://localhost:3000/about and http://localhost:3000/profile
+-open route: http://localhost:3000/test
