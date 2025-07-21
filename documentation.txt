@@ -50,3 +50,18 @@ Dynamic routes
 -in component [productId]/page.tsx add to function ProductDetails() parameter params with type Promise
 -make function ProductDetailsPage() async
 -destructure variable const { productId } from await params
+
+
+Nested dynamic routes
+
+-in folder [productId] create folders reviews and [reviewId]
+-in folder reviews create component page.tsx
+-in component reviews/page.tsx create async function ReviewsPage()
+-add to function ReviewsPage() parameter params with type Promise
+-destructure variable const { productId } from await params
+-open route: http://localhost:3000/products/1/reviews
+-in folder [reviewId] create component page.tsx
+-in component [reviewId]/page.tsx create async function ProductReviewPage()
+-add to function ProductReviewPage() parameter params with type Promise
+-destructure variables const { productId, reviewId } from await params
+-open route: http://localhost:3000/products/1/reviews/1
