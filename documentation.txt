@@ -1,0 +1,7 @@
+Next.js 15 Tutorial Beginner to Advanced
+
+
+App installation
+
+-open link: https://nextjs.org/
+-type command: npx create-next-app@latest .
