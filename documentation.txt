@@ -5,3 +5,8 @@ App installation
 
 -open link: https://nextjs.org/
 -type command: npx create-next-app@latest .
+
+
+Project Structure
+
+-type command: npm run dev
