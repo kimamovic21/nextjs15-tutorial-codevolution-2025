@@ -97,3 +97,9 @@ Not found page
 File colocation
 
 -create folder dashboard and components line-chart.tsx and page.tsx
+
+
+Private folders
+
+-create folder _lib and component page.tsx
+-open route: http://localhost:3000/_lib
