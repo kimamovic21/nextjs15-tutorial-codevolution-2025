@@ -4,9 +4,17 @@ Next.js 15 Tutorial Beginner to Advanced
 App installation
 
 -open link: https://nextjs.org/
--type command: npx create-next-app@latest .
+-open link: https://nextjs.org/docs/app/getting-started/installation
+-create folder hello-world 
+-enter folder cd hello-world and type command: npx create-next-app@latest .
 
 
 Project Structure
 
 -type command: npm run dev
+-open link: https://nextjs.org/docs/app/getting-started/project-structure
+
+
+Before We Start
+
+-open link: https://nextjs.org/docs/app/getting-started/server-and-client-components
