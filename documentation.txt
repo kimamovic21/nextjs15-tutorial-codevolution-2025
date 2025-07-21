@@ -28,3 +28,13 @@ Routing
 -in folders about and profile create components page.tsx
 -open rotes: http://localhost:3000/about and http://localhost:3000/profile
 -open route: http://localhost:3000/test
+
+
+Nested routes
+
+-open link: https://nextjs.org/docs/app/getting-started/layouts-and-pages
+-create folder blog and component page.tsx
+-open route: http://localhost:3000/blog
+-in folder blog create folders first and second
+-in folders first and second create components page.tsx
+-open route: http://localhost:3000/blog/first and http://localhost:3000/blog/second
