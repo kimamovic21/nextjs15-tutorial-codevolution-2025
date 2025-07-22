@@ -114,3 +114,9 @@ Route groups
 -open route: http://localhost:3000/register
 -open route: http://localhost:3000/login
 -open route: http://localhost:3000/forgot-password
+
+
+Layouts
+
+-open link: https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layoutshttps://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
+-in component layout.tsx create elements header and footer
