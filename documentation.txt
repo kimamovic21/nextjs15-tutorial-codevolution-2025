@@ -120,3 +120,9 @@ Layouts
 
 -open link: https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layoutshttps://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts
 -in component layout.tsx create elements header and footer
+
+
+Nested layouts
+
+-in folder [productId] create component layout.tsx
+-open route: http://localhost:3000/products/1
