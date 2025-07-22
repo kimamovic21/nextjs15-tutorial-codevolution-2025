@@ -163,6 +163,7 @@ Metadata title object
 Link component
 
 -open link: https://nextjs.org/docs/app/api-reference/components/link
+-open link: https://nextjs.org/docs/app/getting-started/linking-and-navigating
 -in component app/page.tsx import component Link from package next/link
 -in component products/page.tsx import component Link
 
@@ -178,6 +179,7 @@ Active links
 
 Params and searchParams
 
+-open link: https://nextjs.org/docs/app/api-reference/functions/use-params
 -create folders articles and [articleId]
 -in folders articles and [articleId] create components page.tsx
 -in component articles create component ArticlesPage()
@@ -187,3 +189,15 @@ Params and searchParams
 -open route: http://localhost:3000
 -open route: http://localhost:3000/articles
 -open route: http://localhost:3000/articles/breaking-news-123?lang=en
+
+
+Navigating programmatically
+
+-open link: https://nextjs.org/docs/app/api-reference/functions/use-router
+-create folder order-product and component page.tsx
+-in component order-product/page.tsx create function OrderProductPage()
+-import function useRouter from package next/navigation
+-create function handleNavigate()
+-open link: https://nextjs.org/docs/app/guides/redirecting
+-in component [reviewId]/page.tsx import function redirect from package next/navigation
+-open route: http://localhost:3000/products/1/reviews/1001

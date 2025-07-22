@@ -21,6 +21,12 @@ const HomePage = () => {
       >
         Articles
       </Link>
+      <Link
+        href={'/order-product'}
+        className='underline text-blue-500'
+      >
+        Order product
+      </Link>
     </div>
   );
 };
