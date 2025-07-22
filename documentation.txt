@@ -136,3 +136,18 @@ Multiple root layouts
 -in folder (marketing) create components page.tsx and layout.tsx
 -open routes: http://localhost:3000/register and http://localhost:3000/login
 -open routes: http://localhost:3000/customers and http://localhost:3000/revenue
+
+
+Routing metadata
+
+-open link: https://nextjs.org/learn/dashboard-app/adding-metadata
+-in folder app create components page.tsx and layout.tsx
+-in component about/page.tsx create and export variable const metadata
+-in component [productId]/page.tsx import type Metadata from package next
+-create type Props
+-create and export async function generateMetadata()
+-open route: http://localhost:3000/products/1
+-create folder counter and component page.tsx
+-create component counter.tsx
+-in component counter/page.tsx import component Counter from component counter.tsx
+-open route: http://localhost:3000/counter
