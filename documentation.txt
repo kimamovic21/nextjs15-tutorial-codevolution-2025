@@ -158,3 +158,10 @@ Metadata title object
 -in component layout.tsx add key - value pairs to object title
 -in component blog/page.tsx create and export variable const metadata
 -open route: http://localhost:3000/blog
+
+
+Link component
+
+-open link: https://nextjs.org/docs/app/api-reference/components/link
+-in component app/page.tsx import component Link from package next/link
+-in component products/page.tsx import component Link

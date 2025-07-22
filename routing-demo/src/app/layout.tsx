@@ -18,10 +18,15 @@ const RootLayout = ({
     <html lang='en'>
       <body>
         <div>
-          <h2>This is root layout</h2>
-          <header>this is root header</header>
+          <header className='bg-gray-100 text-black p-2'>
+            this is root header
+          </header>
+
           {children}
-          <footer>this is root footer</footer>
+
+          <footer className='bg-gray-100 text-black p-2'>
+            this is root footer
+          </footer>
         </div>
       </body>
     </html>
