@@ -126,3 +126,13 @@ Nested layouts
 
 -in folder [productId] create component layout.tsx
 -open route: http://localhost:3000/products/1
+
+
+Multiple root layouts
+
+-in folder (auth) create component layout.tsx
+-create folders (marketing), customers and revenue
+-in folders customers and revenue create components page.tsx
+-in folder (marketing) create components page.tsx and layout.tsx
+-open routes: http://localhost:3000/register and http://localhost:3000/login
+-open routes: http://localhost:3000/customers and http://localhost:3000/revenue
