@@ -174,3 +174,16 @@ Active links
 -create variable const navLinks
 -add directive 'use client'
 -create variable const pathname
+
+
+Params and searchParams
+
+-create folders articles and [articleId]
+-in folders articles and [articleId] create components page.tsx
+-in component articles create component ArticlesPage()
+-in component [articleId]/page.tsx create function ArticleDetailsPage()
+-add to function ArticleDetailsPage() parameters params and searchParams with types
+-import function use and component Link
+-open route: http://localhost:3000
+-open route: http://localhost:3000/articles
+-open route: http://localhost:3000/articles/breaking-news-123?lang=en
