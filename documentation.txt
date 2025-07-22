@@ -151,3 +151,10 @@ Routing metadata
 -create component counter.tsx
 -in component counter/page.tsx import component Counter from component counter.tsx
 -open route: http://localhost:3000/counter
+
+
+Metadata title object
+
+-in component layout.tsx add key - value pairs to object title
+-in component blog/page.tsx create and export variable const metadata
+-open route: http://localhost:3000/blog
