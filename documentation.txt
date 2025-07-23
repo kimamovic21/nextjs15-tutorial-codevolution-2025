@@ -211,3 +211,11 @@ Templates
 -in jsx create input element
 -rename component layout.tsx to template.tsx
 -open route: http://localhost:3000/register
+
+
+Loading UI
+
+-open route: https://nextjs.org/docs/app/api-reference/file-conventions/loading
+-in folder blog create component loading.tsx
+-open route: http://localhost:3000/blog
+-in component blog/page.tsx invoke function await new Promise()
