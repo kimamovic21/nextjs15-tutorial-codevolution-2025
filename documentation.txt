@@ -246,3 +246,9 @@ Handling errors in nested routes
 
 -try moving component error.tsx to folder products
 -open route: http://localhost:3000/products/1/reviews/1
+
+
+Handling errors in layouts
+
+-in folder products create component error.tsx
+-open route: http://localhost:3000/products/1/reviews/1
