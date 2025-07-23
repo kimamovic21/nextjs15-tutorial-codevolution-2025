@@ -260,3 +260,14 @@ Handling global errors
 -in component layout.tsx import component ErrorWrapper from component error-wrapper.tsx
 -create component global-error.tsx and function GlobalError()
 -open route: http://localhost:3000
+
+
+Parallel routes
+
+-open link: https://nextjs.org/docs/app/api-reference/file-conventions/parallel-routes
+-create folder complex-dashboard and components page.tsx and layout.tsx
+-create component card.tsx
+-in folder complex-dashboard create folders @notifications, @revenue and @users
+-in these folders create components page.tsx
+-in all these files import component Card from component card.tsx
+-open route: http://localhost:3000/complex-dashboard
