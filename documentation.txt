@@ -252,3 +252,11 @@ Handling errors in layouts
 
 -in folder products create component error.tsx
 -open route: http://localhost:3000/products/1/reviews/1
+
+
+Handling global errors
+
+-create component error-wrapper.tsx and function ErrorWrapper()
+-in component layout.tsx import component ErrorWrapper from component error-wrapper.tsx
+-create component global-error.tsx and function GlobalError()
+-open route: http://localhost:3000
