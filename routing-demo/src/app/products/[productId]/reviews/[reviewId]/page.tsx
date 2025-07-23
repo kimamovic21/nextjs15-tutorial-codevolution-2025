@@ -1,10 +1,20 @@
 import { redirect } from 'next/navigation';
 
+const getRandomInteger = (count: number) => {
+  return Math.floor(Math.random() * count);
+};
+
 const ProductReviewPage = async ({
   params
 }: {
   params: Promise<{ productId: string; reviewId: string }>
 }) => {
+  const random = getRandomInteger(2);
+
+  if (random === 1) {
+    throw new Error('Error loading review');
+  };
+
   const { productId, reviewId } = await params;
 
   if (parseInt(reviewId) > 1000) {

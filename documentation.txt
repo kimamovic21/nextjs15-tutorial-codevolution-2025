@@ -219,3 +219,14 @@ Loading UI
 -in folder blog create component loading.tsx
 -open route: http://localhost:3000/blog
 -in component blog/page.tsx invoke function await new Promise()
+
+
+Error Handling
+
+-open link: https://nextjs.org/docs/app/getting-started/error-handling
+-open route: http://localhost:3000/products/1/reviews/1
+-in component [reviewId]/page.tsx create function getRandomInteger()
+-create component error.tsx
+-in component error.tsx create component ErrorBoundary()
+-add to function ErrorBoundary() parameter error with type Error
+-open route: http://localhost:3000/products/1/reviews/1
