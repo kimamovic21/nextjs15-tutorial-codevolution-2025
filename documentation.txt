@@ -240,3 +240,9 @@ Recovering from errors
 -in jsx create button element with event onClick
 -in event onClick pass invoke anonymous function
 -open route: http://localhost:3000/products/1/reviews/1
+
+
+Handling errors in nested routes
+
+-try moving component error.tsx to folder products
+-open route: http://localhost:3000/products/1/reviews/1
