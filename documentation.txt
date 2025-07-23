@@ -230,3 +230,13 @@ Error Handling
 -in component error.tsx create component ErrorBoundary()
 -add to function ErrorBoundary() parameter error with type Error
 -open route: http://localhost:3000/products/1/reviews/1
+
+
+Recovering from errors
+
+-in component error.tsx, add to function ErrorBoundary() parameter reset
+-import functions startTransition and useRouter
+-create variable const router and function reload()
+-in jsx create button element with event onClick
+-in event onClick pass invoke anonymous function
+-open route: http://localhost:3000/products/1/reviews/1
