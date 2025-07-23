@@ -201,3 +201,13 @@ Navigating programmatically
 -open link: https://nextjs.org/docs/app/guides/redirecting
 -in component [reviewId]/page.tsx import function redirect from package next/navigation
 -open route: http://localhost:3000/products/1/reviews/1001
+
+
+Templates
+
+-open link: https://nextjs.org/docs/app/api-reference/file-conventions/template
+-in component (auth)/layout.tsx import function useState from package react
+-create state variable const input and set function setInput
+-in jsx create input element
+-rename component layout.tsx to template.tsx
+-open route: http://localhost:3000/register
