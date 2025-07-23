@@ -271,3 +271,12 @@ Parallel routes
 -in these folders create components page.tsx
 -in all these files import component Card from component card.tsx
 -open route: http://localhost:3000/complex-dashboard
+
+
+Unmatched routes
+
+-in folder @notifications create folder archived and component page.tsx
+-in components @notifications/page.tsx and archived/page.tsx import component Link
+-create three components default.tsx
+-open route: http://localhost:3000/complex-dashboard
+-open route: http://localhost:3000/complex-dashboard/archived
