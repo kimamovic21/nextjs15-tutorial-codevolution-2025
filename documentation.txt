@@ -385,3 +385,15 @@ URL query params
 -add to function GET() parameter request with type NextRequest
 -create variables const searchParams, const query and const filteredComments
 -Open Postman and send GET request for route: http://localhost:3000/comments?query=first
+
+
+Headers in route handlers
+
+-open link: https://nextjs.org/docs/app/api-reference/functions/headers
+-in profile/api/route.ts file import type NextRequest
+-add to function GET() parameter request with type
+-create variable const requestHeaders
+-add return new Response()
+-import function headers from package next/headers
+-create variable const headerList 
+-Open Postman and send GET request for route: http://localhost:3000/profile/api
