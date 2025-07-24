@@ -321,3 +321,23 @@ Parallel intercepting routes
 -create folder @modal and component default.tsx
 -in folder @modal create folder (.)[id] and component page.tsx
 -open route: http://localhost:3000/photo-feed
+
+
+Route handlers
+
+-open route: https://nextjs.org/docs/app/getting-started/route-handlers-and-middleware
+-create new Next.js 15 project route-handlers
+-in folder app create folder hello and route.ts file
+-in route.ts file create and export async function GET()
+-open route: http://localhost:3000/hello
+-create folder dashboard and route.ts file
+-in route.ts file create and export async function GET()
+-open route: http://localhost:3000/dashboard
+-in folder dashboard create folder user and route.ts file
+-in route.ts file create and export async function GET()
+-open route: http://localhost:3000/dashboard
+-create folder profile and component page.tsx
+-in folder profile create folder api and route.ts file
+-in route.ts file create and export async function GET()
+-open route: http://localhost:3000/profile
+-open route: http://localhost:3000/profile/api
