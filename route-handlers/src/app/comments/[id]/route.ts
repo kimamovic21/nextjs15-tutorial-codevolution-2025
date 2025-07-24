@@ -1,4 +1,4 @@
-import { comments } from '../../api/data';
+import { comments } from '../data';
 
 export async function GET(
   _request: Request,

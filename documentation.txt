@@ -350,29 +350,38 @@ Handling GET Requests
 -in folder api create files data.ts and route.ts
 -in data.ts file create comments array
 -in route.ts file create and export async function GET()
--Open Postman and send GET request for route: http://localhost:3000/comments/api
+-Open Postman and send GET request for route: http://localhost:3000/comments
 
 
 Handling POST Requests
 
 -in route.ts file create and export async function POST()
--Open Postman and send POST request for route: http://localhost:3000/comments/api
+-Open Postman and send POST request for route: http://localhost:3000/comments
 
 
 Dynamic route handlers
 
 -in folder comments create folder [id] and comment page.tsx and route.ts file
 -in route.ts file create and export async function GET()
--open Postman and send GET request for route: http://localhost:3000/comments/1/api
+-open Postman and send GET request for route: http://localhost:3000/comments/1
 
 
 Handling PATCH Requests
 
 -in route.ts file create and export async function PATCH()
--Open Postman and send PATCH request for route: http://localhost:3000/comments/1/api
+-Open Postman and send PATCH request for route: http://localhost:3000/comments/1
 
 
 Handling DELETE Requests
 
 -in route.ts file create and export async function DELETE()
--Open Postman and send DELETE request for route: http://localhost:3000/comments/1/api
+-Open Postman and send DELETE request for route: http://localhost:3000/comments/1
+
+
+URL query params
+
+-delete folders api, components page.tsx and move files to folders comments and [id]
+-in comments/api/route.ts file import type NextResponse from package next/server
+-add to function GET() parameter request with type NextRequest
+-create variables const searchParams, const query and const filteredComments
+-Open Postman and send GET request for route: http://localhost:3000/comments?query=first
