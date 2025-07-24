@@ -397,3 +397,12 @@ Headers in route handlers
 -import function headers from package next/headers
 -create variable const headerList 
 -Open Postman and send GET request for route: http://localhost:3000/profile/api
+
+
+Cookies in route handlers
+
+-open link: https://nextjs.org/docs/app/api-reference/functions/cookies
+-in route.ts file create variable const theme
+-import function cookies from package next/headers
+-create variable const cookieStore
+-Open Postman and send GET request for route: http://localhost:3000/profile/api
