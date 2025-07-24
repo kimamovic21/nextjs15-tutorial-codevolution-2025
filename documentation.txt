@@ -406,3 +406,16 @@ Cookies in route handlers
 -import function cookies from package next/headers
 -create variable const cookieStore
 -Open Postman and send GET request for route: http://localhost:3000/profile/api
+
+
+Redirects in route handlers
+
+-in folder app create folders v1, v2 and users
+-in folders users create files route.ts
+-in v1/users/route.ts file import function redirect from package next/navigation
+-create and export async function GET()
+-in function GET() invoke function redirect('/api/v2/users')
+-in v2/users/route.ts file create and export async function GET()
+-create type UserV2
+-Open Postman and send GET request for route: http://localhost:3000/v1/users
+-Open Postman and send GET request for route: http://localhost:3000/v2/users
