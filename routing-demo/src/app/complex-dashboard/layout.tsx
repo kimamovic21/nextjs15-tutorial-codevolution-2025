@@ -3,13 +3,17 @@ const ComplexDashboardLayout = ({
   users,
   revenue,
   notifications,
+  login
 }: {
   children: React.ReactNode;
   users: React.ReactNode;
   revenue: React.ReactNode;
   notifications: React.ReactNode;
+  login: React.ReactNode;
 }) => {
-  return (
+  const isLoggedIn = false;
+
+  return isLoggedIn ? (
     <div className='p-4'>
       <div className='mb-4'>
         {children}
@@ -30,6 +34,8 @@ const ComplexDashboardLayout = ({
         </div>
       </div>
     </div>
+  ) : (
+    login
   );
 };
 

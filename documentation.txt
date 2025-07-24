@@ -280,3 +280,12 @@ Unmatched routes
 -create three components default.tsx
 -open route: http://localhost:3000/complex-dashboard
 -open route: http://localhost:3000/complex-dashboard/archived
+
+
+Conditional routes
+
+-folder complex-dashboard create folder @login and component page.tsx
+-in component @login/page.tsx create variable const isLoggedIn
+-add ternary condition for variable isLoggedIn
+-in component layout.tsx add to function ComplexDashboardLayout() parameter login with type
+-open route: http://localhost:3000/complex-dashboard
