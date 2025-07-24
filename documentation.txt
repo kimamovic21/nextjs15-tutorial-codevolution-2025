@@ -289,3 +289,24 @@ Conditional routes
 -add ternary condition for variable isLoggedIn
 -in component layout.tsx add to function ComplexDashboardLayout() parameter login with type
 -open route: http://localhost:3000/complex-dashboard
+
+
+Intercepting routes
+
+-open link: https://nextjs.org/docs/app/api-reference/file-conventions/intercepting-routes
+-create folder f1 and component page.tsx
+-in component f1/page.tsx import component Link
+-in folder f1 create folder f2 and component page.tsx
+-open route: http://localhost:3000/f1
+-in folder f1 create folder (.)f2 and component page.tsx
+-in folder app create folder f3 and component page.tsx
+-in folder f1 create folder (..)f3 and component page.tsx
+-in folder app create folder f4 and component page.tsx
+-open route: http://localhost:3000/f1/f2
+-in folder f2 create folder (..)(..)f4 and component page.tsx
+-open route: http://localhost:3000/f4
+-in folder app create folder f5 and component page.tsx
+-in folder f2 create folder inner-f2 and component page.tsx
+-in folder inner-f2 create folder (...)f5 and component page.tsx
+-open route: http://localhost:3000/f5
+-open route: http://localhost:3000/f1/f2/inner-f2
