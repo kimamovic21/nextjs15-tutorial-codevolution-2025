@@ -310,3 +310,14 @@ Intercepting routes
 -in folder inner-f2 create folder (...)f5 and component page.tsx
 -open route: http://localhost:3000/f5
 -open route: http://localhost:3000/f1/f2/inner-f2
+
+
+Parallel intercepting routes
+
+-create folder photo-feed and components page.tsx, modal.tsx and layout.tsx
+-create file wonders.ts
+-create folder photos with images
+-create folder [id] and component page.tsx
+-create folder @modal and component default.tsx
+-in folder @modal create folder (.)[id] and component page.tsx
+-open route: http://localhost:3000/photo-feed
