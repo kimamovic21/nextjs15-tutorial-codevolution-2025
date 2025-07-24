@@ -370,3 +370,9 @@ Handling PATCH Requests
 
 -in route.ts file create and export async function PATCH()
 -Open Postman and send PATCH request for route: http://localhost:3000/comments/1/api
+
+
+Handling DELETE Requests
+
+-in route.ts file create and export async function DELETE()
+-Open Postman and send DELETE request for route: http://localhost:3000/comments/1/api
