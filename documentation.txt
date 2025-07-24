@@ -357,3 +357,10 @@ Handling POST Requests
 
 -in route.ts file create and export async function POST()
 -Open Postman and send POST request for route: http://localhost:3000/comments/api
+
+
+Dynamic route handlers
+
+-in folder comments create folder [id] and comment page.tsx and route.ts file
+-in route.ts file create and export async function GET()
+-open Postman and send GET request for route: http://localhost:3000/comments/1/api
