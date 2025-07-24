@@ -341,3 +341,13 @@ Route handlers
 -in route.ts file create and export async function GET()
 -open route: http://localhost:3000/profile
 -open route: http://localhost:3000/profile/api
+
+
+Handling GET Requests
+
+-in folder app create folder comment and comment page.tsx
+-in folder comments create folder api
+-in folder api create files data.ts and route.ts
+-in data.ts file create comments array
+-in route.ts file create and export async function GET()
+-Open Postman and send GET request for route: http://localhost:3000/comments/api
