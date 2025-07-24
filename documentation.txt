@@ -351,3 +351,9 @@ Handling GET Requests
 -in data.ts file create comments array
 -in route.ts file create and export async function GET()
 -Open Postman and send GET request for route: http://localhost:3000/comments/api
+
+
+Handling POST Requests
+
+-in route.ts file create and export async function POST()
+-Open Postman and send POST request for route: http://localhost:3000/comments/api
