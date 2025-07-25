@@ -489,3 +489,9 @@ Function generateStaticParams
 -in component products/[id]/page.tsx create and export function generateStaticParams()
 -open route: http://localhost:3000/products
 -open route: http://localhost:3000/products/1
+
+
+Function dynamicParams
+
+-in component [id]/page.tsx create and export variable const dynamicParams
+-open route: http://localhost:3000/products/1
