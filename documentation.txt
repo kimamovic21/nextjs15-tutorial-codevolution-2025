@@ -473,3 +473,9 @@ RSC rendering lifecycle
 Static rendering
 
 -open route: http://localhost:3000/about
+
+
+Dynamic rendering
+
+-in component about/page.tsx import function cookies from package next/cookies
+-open route: http://localhost:3000/about
