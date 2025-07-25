@@ -419,3 +419,15 @@ Redirects in route handlers
 -create type UserV2
 -Open Postman and send GET request for route: http://localhost:3000/v1/users
 -Open Postman and send GET request for route: http://localhost:3000/v2/users
+
+
+Caching in route handlers
+
+-in folder app create folder time and route.ts file
+-in time/route.ts file create and export async function GET()
+-create folder categories and route.ts file
+-in categories/route.ts file create and export async function GET()
+-create and export variable const dynamic
+-in time/route.ts file create and export variables dynamic and revalidate
+-open route: http://localhost:3000/time
+-open route: http://localhost:3000/categories
