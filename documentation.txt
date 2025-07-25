@@ -465,3 +465,6 @@ Server and client components
 -create folder dashboard and component page.tsx
 -in component dashboard/page.tsx add directive 'use client'
 -open route: http://localhost:3000/dashboard
+
+
+RSC rendering lifecycle
