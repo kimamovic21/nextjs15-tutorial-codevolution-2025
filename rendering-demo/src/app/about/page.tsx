@@ -3,7 +3,8 @@ const AboutPage = () => {
 
   return (
     <div className='p-2'>
-      AboutPage
+      <h2>About Page</h2>
+      <p>{new Date().toLocaleTimeString()}</p>
     </div>
   );
 };

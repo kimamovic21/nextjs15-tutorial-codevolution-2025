@@ -7,6 +7,9 @@ const HomePage = () => {
       <Link href={'/dashboard'} className='underline'>
         Dashboard
       </Link>
+      <Link href={'/about'} className='underline'>
+        About
+      </Link>
     </div>
   );
 };

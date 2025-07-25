@@ -468,3 +468,8 @@ Server and client components
 
 
 RSC rendering lifecycle
+
+
+Static rendering
+
+-open route: http://localhost:3000/about
