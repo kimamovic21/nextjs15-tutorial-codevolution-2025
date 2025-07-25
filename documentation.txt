@@ -455,3 +455,13 @@ Suspense SSR
 
 
 React server components
+
+
+Server and client components
+
+-create new Next.js app rendering-demo
+-in folder app create folder about and component page.tsx
+-open route: http://localhost:3000/about
+-create folder dashboard and component page.tsx
+-in component dashboard/page.tsx add directive 'use client'
+-open route: http://localhost:3000/dashboard
