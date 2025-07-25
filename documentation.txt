@@ -479,3 +479,13 @@ Dynamic rendering
 
 -in component about/page.tsx import function cookies from package next/cookies
 -open route: http://localhost:3000/about
+
+
+Function generateStaticParams
+
+-open route: https://nextjs.org/docs/app/api-reference/functions/generate-static-params
+-in folder app create folder products and component page.tsx
+-in folder products create folder [id] and component page.tsx
+-in component products/[id]/page.tsx create and export function generateStaticParams()
+-open route: http://localhost:3000/products
+-open route: http://localhost:3000/products/1
