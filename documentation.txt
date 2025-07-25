@@ -449,3 +449,6 @@ Client-side Rendering (CSR)
 
 
 Server-side Rendering (SSR)
+
+
+Suspense SSR
