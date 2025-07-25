@@ -443,3 +443,6 @@ Middleware
 
 
 Rendering
+
+
+Client-side Rendering (CSR)
