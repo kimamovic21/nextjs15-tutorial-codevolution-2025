@@ -431,3 +431,12 @@ Caching in route handlers
 -in time/route.ts file create and export variables dynamic and revalidate
 -open route: http://localhost:3000/time
 -open route: http://localhost:3000/categories
+
+
+Middleware
+
+-in folder src create middleware.ts file
+-in middleware.ts file import object NextResponse and type NextRequest from package next/server
+-create function middleware()
+-create and export object const config
+-open route: http://localhost:3000/profile
