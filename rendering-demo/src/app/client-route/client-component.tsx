@@ -1,9 +1,12 @@
 'use client';
 
 import { useTheme } from '@/components/theme-provider';
+import { clientSideFunction } from '@/utils/client-utils';
 
-const ClientComponent = ({ result }: any) => {
+const ClientComponent = ({ serverResult }: any) => {
   const theme = useTheme();
+
+  const clientResult = clientSideFunction();
 
   return (
     <div className='p-2'>
@@ -11,7 +14,10 @@ const ClientComponent = ({ result }: any) => {
         Client component
       </h3>
       <p>
-        {result}
+        {serverResult}
+      </p>
+      <p>
+        {clientResult}
       </p>
     </div>
   );

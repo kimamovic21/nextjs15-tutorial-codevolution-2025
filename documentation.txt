@@ -557,3 +557,17 @@ Context providers
 -in component layout.tsx import component ThemeProvider from component theme-provider.tsx
 -in component client-component.tsx import function useTheme from component theme-provider.tsx
 -open route: http://localhost:3000/client-route
+
+
+Client-only code
+
+-in folder utils create client-utils.ts file
+-in client-utils.ts file create and export function clientSideFunction()
+-in component client-route/page.tsx import function clientSideFunction from client-utils.ts
+-open link: https://www.npmjs.com/package/client-only
+-type command: npm i client-only
+-in client-utils.ts file import package client-only
+-in component client-route/page.tsx import function clientSideFunction from client-utils.ts
+-open route: http://localhost:3000/client-route
+-in component client-component.tsx import function clientSideFunction from client-utils.ts
+-open route: http://localhost:3000/client-route
