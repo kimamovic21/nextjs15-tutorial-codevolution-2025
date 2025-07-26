@@ -521,7 +521,7 @@ Server-only code
 -in component server-route/page.tsx import function serverSideFunction from server-utils.ts
 -open route: http://localhost:3000/server-route
 -in component client-route/page.tsx import function serverSideFunction from server-utils.ts
--add directive 'use clinet'
+-add directive 'use client'
 -open route: http://localhost:3000/client-route
 -open route: https://www.npmjs.com/package/server-only
 -type command: npm i server-only
@@ -577,9 +577,24 @@ Client component placement
 
 -in folder app create folder landing-page
 -in folder landing-page create components page.tsx, nav-links.tsx, nav-search.tsx and navbar.tsx
--in component page.tsx import component Navbar from comment navbar.tsx
+-in component page.tsx import component Navbar from component navbar.tsx
 -in component navbar.tsx import components NavLinks from component nav-links.tsx and NavSearch from component nav-search.tsx
 -open route: http://localhost:3000/landing-page
 -in component nav-search.tsx add directive 'use client'
 -import function useState from package react
 -create set variable search and set function setSearch
+
+
+Interleaving server and client components
+
+-in folder app create folder interleaving and component page.tsx
+-in folder interleaving create four components, two client and two server
+-in component page.tsx import component ServerComponentOne from component server-component-one.tsx
+-in component server-component-one.tsx import component ServerComponentTwo from component server-component-two.tsx
+-open route: http://localhost:3000/interleaving
+-in component page.tsx import component ClientComponentOne from component client-component-one.tsx
+-in component client-component-one.tsx import component ClientComponentTwo from component client-component-two.tsx
+-in component server-component-one.tsx import component ClientComponentOne from component client-component-one.tsx
+-in component page.tsx import component ClientComponentOne form component client-component-one.tsx
+-in component client-component-one.tsx import component ServerComponentOne from component server-component-one.tsx
+-open route: http://localhost:3000/interleaving
