@@ -510,3 +510,25 @@ Streaming
 
 
 Server and client composition patterns
+
+
+Server-only code
+
+-in folder app create folders server-route and client-route
+-in folders server-route and client-route create components page.tsx
+-in folder src create folder utils and server-utils.ts file
+-in server-utils.ts file create and export function serverSideFunction()
+-in component server-route/page.tsx import function serverSideFunction from server-utils.ts
+-open route: http://localhost:3000/server-route
+-in component client-route/page.tsx import function serverSideFunction from server-utils.ts
+-add directive 'use clinet'
+-open route: http://localhost:3000/client-route
+-open route: https://www.npmjs.com/package/server-only
+-type command: npm i server-only
+-in server-utils.ts file import package server-only
+-open route: http://localhost:3000/client-route
+-open route: http://localhost:3000/server-route
+-in folder client-route create component client-component.tsx
+-in component client-route/page.tsx import component ClientComponent from client-component.tsx
+-open route: http://localhost:3000/client-route
+-open route: http://localhost:3000/server-route
