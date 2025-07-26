@@ -495,3 +495,15 @@ Function dynamicParams
 
 -in component [id]/page.tsx create and export variable const dynamicParams
 -open route: http://localhost:3000/products/1
+
+
+Streaming 
+
+-open link: https://react.dev/reference/react/Suspense
+-in folder app create folder product-reviews
+-in folder product-reviews create components page.tsx, product.tsx and reviews.tsx
+-in component page.tsx import components Product and Reviews
+-in component page.tsx import component Suspense from package react
+-in jsx wrap components Product and Reviews with Suspense component
+-add to components Suspense prop fallback
+-open route: http://localhost:3000/product-reviews
