@@ -507,3 +507,6 @@ Streaming
 -in jsx wrap components Product and Reviews with Suspense component
 -add to components Suspense prop fallback
 -open route: http://localhost:3000/product-reviews
+
+
+Server and client composition patterns
