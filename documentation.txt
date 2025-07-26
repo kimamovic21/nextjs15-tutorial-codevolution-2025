@@ -571,3 +571,15 @@ Client-only code
 -open route: http://localhost:3000/client-route
 -in component client-component.tsx import function clientSideFunction from client-utils.ts
 -open route: http://localhost:3000/client-route
+
+
+Client component placement
+
+-in folder app create folder landing-page
+-in folder landing-page create components page.tsx, nav-links.tsx, nav-search.tsx and navbar.tsx
+-in component page.tsx import component Navbar from comment navbar.tsx
+-in component navbar.tsx import components NavLinks from component nav-links.tsx and NavSearch from component nav-search.tsx
+-open route: http://localhost:3000/landing-page
+-in component nav-search.tsx add directive 'use client'
+-import function useState from package react
+-create set variable search and set function setSearch
