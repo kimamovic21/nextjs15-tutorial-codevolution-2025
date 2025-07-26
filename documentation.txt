@@ -532,3 +532,19 @@ Server-only code
 -in component client-route/page.tsx import component ClientComponent from client-component.tsx
 -open route: http://localhost:3000/client-route
 -open route: http://localhost:3000/server-route
+
+
+Third party packages
+
+-open link: https://www.npmjs.com/package/slick-carousel
+-type command: npm i slick-carousel
+-open link: https://www.npmjs.com/package/react-slick
+-type command: npm i react-slick
+-open link: https://www.npmjs.com/package/@types/react-slick
+-type command: npm i @types/react-slick
+-create component image-slider.tsx
+-in component image-slider.tsx add logic for Slider component
+-in component client-route/page.tsx import component ImageSlider from component image-slider.tsx
+-open route: http://localhost:3000/client-route
+-try to add logic for slider component in component server-rote/page.tsx
+-open route: http://localhost:3000/server-route
