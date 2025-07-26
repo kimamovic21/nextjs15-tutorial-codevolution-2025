@@ -4,7 +4,7 @@ const ServerRoutePage = async () => {
   const result = serverSideFunction();
 
   return (
-    <div>
+    <div className='m-2'>
       <h2>Server Route Page</h2>
       <p>{result}</p>
     </div>

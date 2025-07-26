@@ -6,7 +6,7 @@ const ClientRoutePage = async () => {
   const result = serverSideFunction();
 
   return (
-    <div>
+    <div className='m-2'>
       <h2>Client Route Page</h2>
       <ClientComponent result={result} />
       <ImageSlider />

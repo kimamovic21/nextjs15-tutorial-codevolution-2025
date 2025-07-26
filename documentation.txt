@@ -548,3 +548,12 @@ Third party packages
 -open route: http://localhost:3000/client-route
 -try to add logic for slider component in component server-rote/page.tsx
 -open route: http://localhost:3000/server-route
+
+
+Context providers
+
+-create folder components and component theme-provider.tsx
+-in component theme-provider.tsx add logic for ThemeProvider component
+-in component layout.tsx import component ThemeProvider from component theme-provider.tsx
+-in component client-component.tsx import function useTheme from component theme-provider.tsx
+-open route: http://localhost:3000/client-route
