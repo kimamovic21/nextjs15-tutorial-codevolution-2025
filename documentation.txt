@@ -673,3 +673,24 @@ Parallel data fetching
 -in jsx create HTML elements with Tailwind CSS classes
 -create component loading.tsx
 -open route: http://localhost:3000/user-parallel/1
+
+
+Fetching from a database
+
+-open link: https://www.prisma.io
+-type command: npm i prisma -D
+-open link: https://www.npmjs.com/package/@prisma/client
+-type command: npm i @prisma/client
+-type command: npx prisma init --datasource-provider sqlite
+-update .gitignore file 
+-in schema.prisma file create model Product
+-type command: npx prisma migrate dev --name init
+-create prisma-db.ts file
+-in prisma-db.ts file create more functions
+-type command: npx prisma generate
+-create folder products-db and component page.tsx
+-in component page.tsx import function getProducts from prisma-db.ts file
+-create type Product
+-create and export async function ProductsDBPage()
+-in jsx create HTML elements with Tailwind CSS classes
+-open route: http://localhost:3000/products-db
