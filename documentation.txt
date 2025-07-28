@@ -694,3 +694,12 @@ Fetching from a database
 -create and export async function ProductsDBPage()
 -in jsx create HTML elements with Tailwind CSS classes
 -open route: http://localhost:3000/products-db
+
+
+Data mutations
+
+-create folder react-form and component page.tsx
+-in component page.tsx add logic for form submission
+-create folder api and route.ts file
+-in route.ts file create and export async function POST()
+-open route: http://localhost:3000/react-form
