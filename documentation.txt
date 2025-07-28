@@ -621,3 +621,14 @@ Fetching data in client components
 -in jsx create HTML elements with Tailwind CSS classes
 -in element ul invoke function users?.map()
 -open route: http://localhost:3000/users-client
+
+
+Fetching data in server components
+
+-create folder users-server and component page.tsx
+-create type User
+-create and export async function UsersServerPage as default
+-create variables const response and const users
+-in jsx create HTML elements with Tailwind CSS classes
+-in element ul invoke function users?.map()
+-open route http://localhost:3000/users-server
