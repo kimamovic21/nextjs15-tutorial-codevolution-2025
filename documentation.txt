@@ -645,7 +645,7 @@ Loading and error states
 
 Sequential data fetching
 
--open route: https://jsonplaceholder.typicode.com/posts
+-open link: https://jsonplaceholder.typicode.com/posts
 -create folder posts-sequential and component page.tsx
 -in component page.tsx create and export async function PostsSequentialPage as default
 -create type Post
@@ -657,3 +657,19 @@ Sequential data fetching
 -in jsx add component Suspense with prop fallback
 -in component Suspense add component Author with prop userId
 -open route: http://localhost:3000/posts-sequential
+
+
+Parallel data fetching
+
+-open link: https://jsonplaceholder.typicode.com/albums
+-create folders user-parallel and [id]
+-in folder [id] create component page.tsx
+-in component page.tsx create types Post and Album
+-create async functions getUserPosts() and getUserAlbums()
+-create and export async function UserParallelIdPage()
+-destructure variable const { userId } from await params
+-create variables const postsData and const albumsData
+-invoke function await Promise.all()
+-in jsx create HTML elements with Tailwind CSS classes
+-create component loading.tsx
+-open route: http://localhost:3000/user-parallel/1
