@@ -604,3 +604,20 @@ Data Fetching
 
 -create folder data-fetching
 -in folder data-fetching create next Next.js 15 app
+
+
+Fetching data in client components
+
+-open link: https://jsonplaceholder.typicode.com/
+-open link: https://jsonplaceholder.typicode.com/users
+-create folder users-client and component page.tsx
+-in component page.tsx add directive 'use client'
+-create type User
+-create and export function UsersClientPage as default
+-import functions useState and useEffect
+-create three state variables and three set functions
+-invoke function useEffect()
+-add conditions if (loading) and if (error)
+-in jsx create HTML elements with Tailwind CSS classes
+-in element ul invoke function users?.map()
+-open route: http://localhost:3000/users-client
