@@ -598,3 +598,9 @@ Interleaving server and client components
 -in component page.tsx import component ClientComponentOne form component client-component-one.tsx
 -in component client-component-one.tsx import component ServerComponentOne from component server-component-one.tsx
 -open route: http://localhost:3000/interleaving
+
+
+Data Fetching
+
+-create folder data-fetching
+-in folder data-fetching create next Next.js 15 app
