@@ -710,3 +710,11 @@ Forms with server actions
 -create folder products-db-create and component page.tsx
 -in component page.tsx add logic for form submission
 -open route: http://localhost:3000/products-db-create
+
+
+Pending State with useFormStatus
+
+-open link: https://react.dev/reference/react-dom/hooks/useFormStatus
+-create component submit-button.tsx
+-in component page.tsx import component SubmitButton from component submit-button.tsx
+-open route: http://localhost:3000/products-db-create
