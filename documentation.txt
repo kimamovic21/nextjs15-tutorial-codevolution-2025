@@ -703,3 +703,10 @@ Data mutations
 -create folder api and route.ts file
 -in route.ts file create and export async function POST()
 -open route: http://localhost:3000/react-form
+
+
+Forms with server actions
+
+-create folder products-db-create and component page.tsx
+-in component page.tsx add logic for form submission
+-open route: http://localhost:3000/products-db-create
