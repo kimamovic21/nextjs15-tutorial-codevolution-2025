@@ -632,3 +632,12 @@ Fetching data in server components
 -in jsx create HTML elements with Tailwind CSS classes
 -in element ul invoke function users?.map()
 -open route http://localhost:3000/users-server
+
+
+Loading and error states
+
+-in folder users-server create component loading.tsx
+-in component users-server invoke function await new Promise()
+-open route: http://localhost:3000/users-server
+-create component error.tsx
+-open route http://localhost:3000/users-server
