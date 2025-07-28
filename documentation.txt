@@ -641,3 +641,19 @@ Loading and error states
 -open route: http://localhost:3000/users-server
 -create component error.tsx
 -open route http://localhost:3000/users-server
+
+
+Sequential data fetching
+
+-open route: https://jsonplaceholder.typicode.com/posts
+-create folder posts-sequential and component page.tsx
+-in component page.tsx create and export async function PostsSequentialPage as default
+-create type Post
+-create variables const response, const posts and const filteredPosts
+-open route: http://localhost:3000/posts-sequential
+-create component author.tsx
+-in component page.tsx import component Author from component author.tsx
+-import component Suspense
+-in jsx add component Suspense with prop fallback
+-in component Suspense add component Author with prop userId
+-open route: http://localhost:3000/posts-sequential
