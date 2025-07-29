@@ -801,3 +801,10 @@ Form component
 -in component products-details.tsx import component Form from package next/form
 -open route: http://localhost:3000
 -open route: http://localhost:3000/products-db?query=product+1
+
+
+Authentication
+
+-open link: https://nextjs.org/docs/app/guides/authentication
+-open link: https://clerk.com/
+-create new Next.js project auth-demo
