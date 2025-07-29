@@ -736,3 +736,14 @@ Form Validation with useActionState
 -add to function SubmitButton parameter isPending with type SubmitButtonProps
 -in jsx add ternary operator isPending
 -open route: http://localhost:3000/products-db-create
+
+
+Separating server actions
+
+-in folder src create folder actions and products.ts file
+-move function createProduct from page.tsx to products.ts file
+-in component page.tsx import function createProduct and types from actions/products.ts
+-create component products-form.tsx
+-move client logic from component page.tsx to component products-form.tsx
+-in component page.tsx import component ProductsForm from component products-form.tsx
+-open route: http://localhost:3000/products-db
