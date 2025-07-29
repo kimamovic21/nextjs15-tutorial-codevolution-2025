@@ -820,3 +820,11 @@ Clerk Setup
 -create middleware.ts file and add code from documentation
 -in component layout.tsx add code from documentation
 -open route: http://localhost:3000
+
+
+Sign in and sign out
+
+-create folder components and component navigation.tsx
+-in component navigation.tsx import Clerk components SignInButton and SignOutButton from package clerk/nextjs
+-in component layout.tsx import component Navigation from component navigation.tsx
+-open route: http://localhost:3000
