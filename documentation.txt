@@ -808,3 +808,15 @@ Authentication
 -open link: https://nextjs.org/docs/app/guides/authentication
 -open link: https://clerk.com/
 -create new Next.js project auth-demo
+
+
+Clerk Setup
+
+-open Clerk dashboard and create new app
+-open link: https://www.npmjs.com/package/@clerk/nextjs
+-type command: npm i @clerk/nextjs
+-create files .env.local and example.env
+-in .env.local file add two env variables
+-create middleware.ts file and add code from documentation
+-in component layout.tsx add code from documentation
+-open route: http://localhost:3000
