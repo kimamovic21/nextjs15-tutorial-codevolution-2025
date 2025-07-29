@@ -787,3 +787,17 @@ Optimistic updates
 -in jsx invoke function optimisticProducts?.map()
 -in component page.tsx import component ProductsDetails from component products-details.tsx
 -open route: http://localhost:3000/products-db
+
+
+Form component
+
+-open link: https://nextjs.org/docs/app/api-reference/components/form
+-create components loading.tsx and search.tsx
+-in comment search.tsx import component Form from package next/form
+-in jsx add component Form as parent component
+-in component app/page.tsx import component Search from component search.tsx
+-in component products-db/page.tsx add to function ProductsDBPage() parameter searchParams with type
+-destructure variable const { query }
+-in component products-details.tsx import component Form from package next/form
+-open route: http://localhost:3000
+-open route: http://localhost:3000/products-db?query=product+1
