@@ -774,3 +774,16 @@ Delete server action
 -in component products-db/page.tsx import component removeProduct from products.ts file
 -in jsx create elements form and button
 -open route: http://localhost:3000/products-db
+
+
+Optimistic updates
+
+-open link: https://react.dev/reference/react/useOptimistic
+-create component products-details.tsx
+-in component products-details.tsx import function useOptimistic from package react
+-invoke function useOptimistic()
+-the value of function useOptimistic() store in array const [optimisticProducts, setOptimisticProducts]
+-create async function removeProductById()
+-in jsx invoke function optimisticProducts?.map()
+-in component page.tsx import component ProductsDetails from component products-details.tsx
+-open route: http://localhost:3000/products-db
