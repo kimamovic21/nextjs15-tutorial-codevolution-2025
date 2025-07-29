@@ -718,3 +718,21 @@ Pending State with useFormStatus
 -create component submit-button.tsx
 -in component page.tsx import component SubmitButton from component submit-button.tsx
 -open route: http://localhost:3000/products-db-create
+
+
+Form Validation with useActionState
+
+-create example.env file
+-in component page.tsx import function useFormStatus from package react
+-add directive 'use client'
+-create types type Errors and type FormState
+-create variable const initialState
+-invoke function useFormStatus()
+-the values of function useFormStatus() store in array const [state, formAction, isPending] 
+-create variable const errors
+-add four if conditions
+-in jsx add three states for error message state.errors
+-in component submit-button.tsx create type SubmitButtonProps
+-add to function SubmitButton parameter isPending with type SubmitButtonProps
+-in jsx add ternary operator isPending
+-open route: http://localhost:3000/products-db-create
