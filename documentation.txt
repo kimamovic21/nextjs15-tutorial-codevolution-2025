@@ -828,3 +828,11 @@ Sign in and sign out
 -in component navigation.tsx import Clerk components SignInButton and SignOutButton from package clerk/nextjs
 -in component layout.tsx import component Navigation from component navigation.tsx
 -open route: http://localhost:3000
+
+
+Profile settings
+
+-create folders user-profile, [[...user-profile]] and component page.tsx
+-in component page.tsx import component UserProfile from package clerk/nextjs
+-in component navigation.tsx import other components from package clerk/nextjs
+-open route: http://localhost:3000/user-profile
