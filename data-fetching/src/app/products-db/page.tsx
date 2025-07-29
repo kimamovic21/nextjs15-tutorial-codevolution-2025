@@ -1,4 +1,5 @@
 import { getProducts } from '@/prisma-db';
+import { removeProduct } from '@/actions/products';
 import Link from 'next/link';
 
 export type Product = {
@@ -13,10 +14,14 @@ const ProductsDBPage = async () => {
 
   return (
     <ul className='space-y-4 p-4'>
+      <Link href={`/products-db-create`} className='underline'>
+        Create product
+      </Link>
+
       {products?.map((product) => (
         <li
           key={product.id}
-          className='p-4 bg-white shadow-md rounded-lg text-gray-700'
+          className='mt-2 p-4 bg-white shadow-md rounded-lg text-gray-700'
         >
           <h2 className='text-xl font-semibold'>
             <span>{product.title}</span>
@@ -33,6 +38,14 @@ const ProductsDBPage = async () => {
           <p className='text-lg font-medium'>
             ${product.price}
           </p>
+          <form action={removeProduct.bind(null, product.id)}>
+            <button
+              type='submit'
+              className='px-4 pz-2 mt-4 text-white bg-red-500 rounded-md hover:bg-red-600 cursor-pointer'
+            >
+              Delete
+            </button>
+          </form>
         </li>
       ))}
     </ul>

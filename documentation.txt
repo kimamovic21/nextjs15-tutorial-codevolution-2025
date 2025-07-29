@@ -759,6 +759,18 @@ Update server action
 -in folder products-db create folder [id]
 -in folder [id] create components page.tsx, product-edit-form.tsx and submit-button.tsx
 -in component page.tsx import component ProductEditForm from component product-edit-form.tsx
--open route: http://localhost:3000/products-db/1
 -in products-db/page.tsx component import component Link 
 -in products.ts file create and export async function editProduct()
+-open route: http://localhost:3000/products-db
+-open route: http://localhost:3000/products-db/1
+
+
+Delete server action
+
+-open link: https://nextjs.org/docs/app/api-reference/functions/revalidatePath
+-in products.ts file import function deleteProduct from prisma-db.ts file
+-create and export async function removeProduct()
+-import function revalidatePath from package next/cache
+-in component products-db/page.tsx import component removeProduct from products.ts file
+-in jsx create elements form and button
+-open route: http://localhost:3000/products-db
