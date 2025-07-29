@@ -839,3 +839,12 @@ Profile settings
 
 
 Conditional UI rendering
+
+
+Protecting routes
+
+-in middleware.ts file import function createRouteMatcher from package clerk
+-create variables const isProtectedRoute and const isPublicRoute
+-in function clerkMiddleware() destructure variable const userId and function redirectToSignIn from await auth()
+-add condition if (!userId && !isPublicRoute(req))
+-open route: http://localhost:3000/user-profile
