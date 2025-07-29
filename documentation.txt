@@ -836,3 +836,6 @@ Profile settings
 -in component page.tsx import component UserProfile from package clerk/nextjs
 -in component navigation.tsx import other components from package clerk/nextjs
 -open route: http://localhost:3000/user-profile
+
+
+Conditional UI rendering
