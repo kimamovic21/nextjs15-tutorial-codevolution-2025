@@ -722,6 +722,7 @@ Pending State with useFormStatus
 
 Form Validation with useActionState
 
+-open link: https://react.dev/reference/react/useActionState
 -create example.env file
 -in component page.tsx import function useFormStatus from package react
 -add directive 'use client'
@@ -740,6 +741,7 @@ Form Validation with useActionState
 
 Separating server actions
 
+-open link: https://nextjs.org/docs/14/app/building-your-application/data-fetching/server-actions-and-mutations
 -in folder src create folder actions and products.ts file
 -move function createProduct from page.tsx to products.ts file
 -in component page.tsx import function createProduct and types from actions/products.ts
@@ -750,3 +752,13 @@ Separating server actions
 
 
 useFormStatus vs useActionState
+
+
+Update server action
+
+-in folder products-db create folder [id]
+-in folder [id] create components page.tsx, product-edit-form.tsx and submit-button.tsx
+-in component page.tsx import component ProductEditForm from component product-edit-form.tsx
+-open route: http://localhost:3000/products-db/1
+-in products-db/page.tsx component import component Link 
+-in products.ts file create and export async function editProduct()
