@@ -885,3 +885,10 @@ Customizing clerk components
 -in .env.local file add new six env variables
 -create folder about and component page.tsx
 -open route: http://localhost:3000/about
+
+
+Deploying Next.js apps to Vercel
+
+-open link: https://vercel.com/
+-open Vercel dashboard and add new project
+-add env variables in your project
