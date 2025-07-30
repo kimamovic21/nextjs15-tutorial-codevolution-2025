@@ -876,3 +876,12 @@ Role based access control
 -in actions.ts file add directive 'use server'
 -import functions revalidatePath, auth, clerkClient and type Roles
 -create and export async functions setRole() and removeRole()
+
+
+Customizing clerk components
+
+-create folders sign-up, [[...sign-up]] and component page.tsx
+-create folders sign-in, [[...sign-in]] and component page.tsx
+-in .env.local file add new six env variables
+-create folder about and component page.tsx
+-open route: http://localhost:3000/about
