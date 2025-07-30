@@ -848,3 +848,14 @@ Protecting routes
 -in function clerkMiddleware() destructure variable const userId and function redirectToSignIn from await auth()
 -add condition if (!userId && !isPublicRoute(req))
 -open route: http://localhost:3000/user-profile
+
+
+Read session and user data
+
+-create folder dashboard and component page.tsx
+-in component page.tsx import functions auth and currentUser from package clerk
+-open route: http://localhost:3000/dashboard
+-in folder components create component counter.tsx
+-in component counter.tsx import functions useAuth and useUser from package clerk
+-in component app/page.tsx import component Counter from component counter.tsx
+-open route: http://localhost:3000
