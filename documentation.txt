@@ -859,3 +859,20 @@ Read session and user data
 -in component counter.tsx import functions useAuth and useUser from package clerk
 -in component app/page.tsx import component Counter from component counter.tsx
 -open route: http://localhost:3000
+
+
+Role based access control
+
+-open web page Clerk and follow instructions from video
+-create folder types and globals.d.ts file
+-in globals.d.ts file create and export type Roles
+-define global object
+-create folder admin and component page.tsx
+-in middleware.ts file create variable isAdminRoute
+-import object NextResponse from package next/server
+-add if condition to check is signed in user not admin
+-open route: http://localhost:3000/admin
+-in folder admin create actions.ts file
+-in actions.ts file add directive 'use server'
+-import functions revalidatePath, auth, clerkClient and type Roles
+-create and export async functions setRole() and removeRole()

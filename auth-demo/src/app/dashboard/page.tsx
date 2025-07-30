@@ -4,8 +4,8 @@ const DashboardPage = async () => {
   const authObj = await auth();
   const userObj = await currentUser();
 
-  console.log(authObj);
-  console.log(userObj);
+  console.log('Auth object: ', authObj);
+  console.log('User object: ', userObj);
 
   return (
     <div>DashboardPage</div>
